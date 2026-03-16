@@ -12,7 +12,7 @@ import torch.nn as nn
 from transformers.modeling_attn_mask_utils import _prepare_4d_causal_attention_mask
 from torch.nn import CrossEntropyLoss
 from loguru import logger
-from MLLMExpertSkip.models.utils import (
+from MoDES.models.utils import (
     apply_tensor_scale,
     apply_scaler_scale,
     threshold_and_mask,

@@ -33,7 +33,7 @@ except Exception:
 from transformers.modeling_flash_attention_utils import FlashAttentionKwargs
 from transformers.modeling_outputs import BaseModelOutputWithPast
 from transformers.cache_utils import Cache, DynamicCache
-from MLLMExpertSkip.models.utils import (
+from MoDES.models.utils import (
     apply_tensor_scale,
     apply_scaler_scale,
     threshold_and_mask,
